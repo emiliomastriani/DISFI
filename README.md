@@ -11,5 +11,5 @@ It is intended for:
 - Validation of alerting rules
 
 Please,
- 1. Refer to the User Manual for more information
+ 1. Refer to the User Manual for more information (https://github.com/emiliomastriani/DISFI/blob/main/DISFI_V01_UserManual.pdf)
  2. Cite the tool with "Mastriani, E., Costa A.  DISFI (Distributed Infrastructure Stress and Fault Injector), https://github.com/emiliomastriani/DISFI"
