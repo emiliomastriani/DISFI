@@ -1,0 +1,41 @@
+{
+  "title": "DISFI: Distributed Infrastructure Stress and Fault Injector",
+  "creators": [
+    {
+      "name": "Mastriani, Emilio",
+      "affiliation": "National Institute of Astrophysics (INAF) - Catania Astrophysical Observatory"
+    },
+    {
+      "name": "Costa, Alessandro",
+      "affiliation": "National Institute of Astrophysics (INAF) - Catania Astrophysical Observatory"
+    },
+    {
+      "name": "Incardona, Federico",
+      "affiliation": "National Institute of Astrophysics (INAF) - Catania Astrophysical Observatory"
+    },
+    {
+      "name": "Munari, Kevin",
+      "affiliation": "National Institute of Astrophysics (INAF) - Catania Astrophysical Observatory"
+    },
+    {
+      "name": "Spinello, Sebastiano",
+      "affiliation": "National Institute of Astrophysics (INAF) - Catania Astrophysical Observatory"
+    }
+  ],
+  "description": "DISFI (Distributed Infrastructure Stress and Fault Injector) is a configurable fault-injection framework designed to induce controlled stress conditions and resource exhaustion in distributed, stateful systems. Unlike traditional load generators that focus solely on throughput, DISFI combines sustained background telemetry traffic with selectively injected pathological workload patterns, including connection storms, read/write amplification, intentional connection leaks, and CPU saturation. The framework is specifically engineered to trigger internal, non-superficial failure modes often invisible to standard health checks: thread pool starvation, file descriptor exhaustion, request timeouts, and transient unavailability. All injected faults and execution parameters are explicitly logged with millisecond precision, enabling temporal alignment between stress events and system anomalies. DISFI is primarily intended for generating labeled datasets for ML-based anomaly detection; stress testing observability stacks (Prometheus, Grafana, etc.); validating alerting rules and auto-remediation policies; and conducting reproducible reliability experiments on Cassandra and similar stateful platforms. The tool is released as open-source Python software, fully documented, and designed for extensibility.",
+  "access_right": "open",
+  "license": "MIT", 
+  "keywords": [
+	"fault injection",
+    	"distributed systems",
+    	"Apache Cassandra",
+    	"stress testing",
+    	"resource exhaustion",
+    	"connection storms",
+    	"thread pool saturation",
+    	"file descriptor exhaustion",
+    	"anomaly detection",
+    	"reliability engineering"],
+"upload_type": "software",
+"language": "eng"
+}
